@@ -29,7 +29,7 @@ const CheckoutForm = () => {
     0
   );
 
-  /* Payment Section */
+  /* Payment */
   const [selected, setSelected] = useState("");
   const handleOrderSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -45,18 +45,14 @@ const CheckoutForm = () => {
       totalPrice,
     };
 
-    // Get existing orders (or start fresh if none exist)
     const existingOrders = JSON.parse(
       localStorage.getItem("all-orders") || "[]"
     );
 
-    // Append new order to existing
     const updatedOrders = [...existingOrders, newOrder];
 
-    // Save back to localStorage
     localStorage.setItem("all-orders", JSON.stringify(updatedOrders));
 
-    // Optionally, keep last order separately if still needed
     localStorage.setItem("last-order", JSON.stringify(newOrder));
 
     router.push("/account/order");

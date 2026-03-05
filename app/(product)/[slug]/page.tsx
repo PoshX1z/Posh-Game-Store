@@ -7,7 +7,7 @@ import {
 import { notFound } from "next/navigation";
 import ProductDetailsItem from "./ProductDetailsItem";
 
-// Generate metadata (for SEO purpose).
+// Generate metadata (for SEO).
 export async function generateMetadata(props: {
   params: Promise<{ slug: string }>;
 }) {
