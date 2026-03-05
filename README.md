@@ -1,32 +1,32 @@
-**Posh Game Store** is a full-featured e-commerce web application for selling games, inspired by modern storefronts and built with cutting-edge tools like **Next.js**, **TypeScript**, and **Tailwind CSS**. Whether you’re into PC games or console titles, this platform delivers a sleek and immersive buying experience.
+Posh Game Store is an e-commerce web application for selling games, inspired by modern game store and built with tools like Next.js, TypeScript, and Tailwind CSS. Whether you’re into PC games or console, this platform delivers an immersive buying game experience for you.
 
 ---
 
-## 🚀 Features
+---Features---
 
-- 🛒 Add to Cart, Wishlist, Checkout, and Secure Payment Flow  
-- 🔐 Sign In / Sign Out with Authentication & Zod-based Validation  
-- 📦 Order Tracking and Purchase History  
-- 🧾 Robust Form and Input Validation using `zod`  
-- 🔎 Search Functionality with Filtering by Categories (PC, PlayStation, Xbox, etc.)  
-- 📰 News Page to Browse Latest Game Announcements  
-- ⚙️ Custom Hooks & Advanced Dynamic Routing System  
-- 🌐 English Language Support  
-- 📱 Fully Responsive UI – Works Smoothly on Mobile and Desktop
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)  
-- **Backend:** [Prisma ORM](https://www.prisma.io/) with [NeonDB](https://neon.tech/) + PostgreSQL  
-- **Auth & Validation:** Custom Authentication Flow using `zod`  
-- **State Management:** React Context + Custom Hooks  
-- **Deployment:** [Vercel](https://vercel.com/) (or similar modern deployment)
+- Add to Cart, Wishlist, Checkout, and Secure Payment Flow  
+- Sign In / Sign Out with Authentication & Zod-based Validation  
+- Order Tracking and Purchase History  
+- Robust Form and Input Validation using "zod"
+- Search Functionality with Filtering by Categories (PC, PlayStation, Xbox, etc.)  
+- News Page to Browse Latest Game News  
+- Custom Hooks & Dynamic Routing System  
+- English Language Support  
+- Fully Responsive UI on mobile and desktop
 
 ---
 
-## 💡 Why I Built This
+---Tech Stack---
+
+- Frontend: Next.ts
+- Backend: Prisma ORM with PostgreSQL database
+- Auth: Next Authentication
+- State Management:React Context + Custom Hooks, Zustand
+- Deployment: Vercel
+
+---
+
+---Why I Built This---
 
 I’m a passionate gamer, and this is my favorite personal project so far. I wanted to create a digital storefront that could be used to showcase and sell games, complete with all the essential features you'd expect from a professional e-commerce site — plus a touch of my own style and preferences.
 
